@@ -108,7 +108,7 @@
         public Tier MachineTier { get; set; }
         public int BaseDuration { get; set; }
         public int RecipeHeat { get; set; }
-        public string MachineHeat { get; set; }
+        public string MachineHeat { get; set; } = GregtechValues.Coils.Keys.First();
     }
 
     private void CalculateResults()
